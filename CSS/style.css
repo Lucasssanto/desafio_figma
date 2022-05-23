@@ -1,0 +1,82 @@
+:root {
+    --bg-primary: #fff;
+    --bg-second: rgba(24, 24, 24, 70);
+    --primary: linear-gradient(#FFD600, #080808);
+    --second: #fff;
+    --terciary: #32F484;
+    --html-color: #FF6D00;
+    --css-color: #039BE5;
+    --js-color: #FFD600;
+    --flutter-color: #40C4FF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    overflow-x: hidden;
+    background-color: var(--bg-primary);
+    color: var(--second);
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    padding-top: .5rem;
+    
+}
+
+/* cabeçalho*/
+
+.logo_cabecalho {
+    height: 15px;
+    padding-top: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    width: 120px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    transition: color 0.2s ease-in-out 0s;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li a:hover {
+    color: var(--terciary);
+}
+
+.search_text {
+    position: absolute;
+}
+
+.lupa {
+    height: 20px;
+    width: 20px;
+}
